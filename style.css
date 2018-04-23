@@ -1,0 +1,358 @@
+* {
+    box-sizing: border-box;
+}
+body, html, html a {
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    margin:0;
+    padding:0;
+    font-family: Hind, sans-serif;
+}
+a {
+    cursor: pointer;
+    color: #81848f;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+}
+li {
+    display: inline-block;
+    list-style: none;
+}
+i {
+    margin-left: 30px;
+}
+p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #a6a7aa;
+    margin-bottom: 15px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: #515769;
+    line-height: 1.4;
+    margin: 0 0 15px;
+}
+h5 {
+    margin-top: 15px;
+}
+/*Header*/
+.header {
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+}
+.header nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    padding: 20px;
+}
+.header nav ul li a:hover {
+    color:orange;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.header nav ul {
+    margin-right: 100px;
+}
+.menu-itm {
+    height: 100%;
+}
+.logo {
+    margin-left: 100px;
+}
+/*MAIN*/
+main {
+    display:flex;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background-image: url (img/1920x1080/01.jpg);
+    background-size: cover;
+
+}
+.container {
+    width: 100%;
+    padding: 100px;
+}
+.main-container {
+    width: 600px;
+}
+.title h1 {
+    font-size: 70px;
+    color: #fff;
+    line-height: 1;
+}
+.title p {
+    font-size: 25px;
+    color: #fff;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+}
+.social-icons {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 50%;
+    padding: 11px;
+}
+/*Skills*/
+.about {
+    width: 100%;
+    height: 800px;
+    background: #fff;
+}
+.skills {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 650px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skills-text {
+    width: 25%;
+    height: 600px;
+    text-align: right;
+}
+.skills-text-right {
+    width: 50%;
+    height: 600px;
+}
+.skills-text-intro {
+    font-size: 30px;
+}
+
+/*Progress*/
+.progress-bar {
+    height: 3px;
+    background:red;
+    width: 100%;
+    text-align: right;
+    margin-top: 30px;
+}
+.progress-bar-container {
+    height: 3px;
+    width: 100%;
+    background: rgb(241, 239, 239);
+}
+.php {
+    height: 3px;
+    width: 87%;
+    background: #17bed2!important;
+}
+.html {
+    height: 3px;
+    width: 96%;
+    background: #17bed2!important;
+}
+
+.javascript {
+    height: 3px;
+    width: 52%;
+    background: #17bed2!important;
+}
+.photoshop {
+    height: 3px;
+    width: 77%;
+    background: #17bed2!important;
+}
+/*Experience*/
+.experience-container {
+    width: 100%;
+    height: 400px;
+    background:#fafafa;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.experience-text {
+    height: 400px;
+    width: 25%;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+.experience-cards {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    align-self: center;
+}
+.lab {
+    text-align: center;
+    width: 300px;
+    height: 250px;
+    background: #fff;
+}
+.badge {
+    width: 250px;
+    height: 250px;
+    background: #fff;
+    text-align: center;
+}
+.desktop:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
+    background:#abd1f5;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.lab:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
+    background:#abd1f5;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.badge:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
+    background:#abd1f5;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.badge:hover {
+    background:#abd1f5;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.lab:hover {
+    background:#abd1f5;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.desktop {
+    width: 250px;
+    height: 250px;
+    background: #fff;
+    text-align: center;
+}
+.service-icon {
+    font-size:35px;
+    color:#333;
+    margin-right: 25px;
+} 
+/*Contact*/
+
+.contact-container {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #fafafa;
+    width: 100%;
+    height: 280px;
+}
+.contact-text {
+    width: 25%;
+    text-align: right;
+    font-size:25px;
+}
+
+.contact-text h2 {
+    font-weight: 700;
+    color: #515769;
+}
+
+.contact-inf h5 {
+    font-size: 20px;
+}
+
+
+
+/*WORK*/
+.work {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    background:#fff;
+    align-items: center;
+}
+.work-text {
+    text-align: right;
+    width: 25%;
+    height: 500px;
+    background:#fff;
+}
+.work-text h2 {
+    margin-top: 100px;
+
+}
+.work-photo {
+    width: 75%;
+    height: 500px;
+    background:#fff;
+    margin-left: 250px;
+}
+
+.work-img1 {
+    width: 410px;
+    height: 205px;
+}
+
+.work-img2 {
+    width: 203px;
+    height: 205px;
+}
+.work-img3 {
+    width: 203px;
+    height: 153px;
+}
+.work-img4 {
+    width: 203px;
+    height: 153px;
+}
+.work-img5 {
+    width: 203px;
+    height: 153px;
+}
+.gallery:hover  {
+    background: rgba(0,0,0,0.5);
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+    transition-duration: 1s;
+}
+
+/*Footer*/
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    align-items: center;
+}
+.footer-logo {
+    width: 50%;
+    padding: 20px;
+    margin-left: 140px;
+}
+.footer-text {
+    padding: 20px;
+    width: 50%;
+    margin-left: 100px;
+}
